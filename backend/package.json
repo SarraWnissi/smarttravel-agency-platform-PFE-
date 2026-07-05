@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "seed:images": "node scripts/seedImages.js",
+    "seed:hotel-images": "node scripts/fetchHotelImages.js",
+    "seed:service-images": "node scripts/fetchServiceImages.js",
+    "seed:room-images": "node scripts/fetchRoomImages.js",
+    "mcp": "node mcp-http.js",
+    "mcp:stdio": "node mcp-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.16.0",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.6.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.2.0",
+    "nodemailer": "^6.10.1",
+    "openai": "^6.36.0",
+    "stripe": "^22.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

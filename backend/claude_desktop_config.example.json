@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "smarttravel": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\sa_ra\\Downloads\\pfe\\pfe\\backend\\mcp-server.js"
+      ]
+    }
+  }
+}
